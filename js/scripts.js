@@ -7,7 +7,8 @@ window.onload = function() {
     const oneFavorite = document.getElementById("favoriteThingOne").value;
     const twoFavorite = document.getElementById("favoriteThingTwo").value;
     const threeFavorite = document.getElementById("favoriteThingThree").value;
-    const tripleFaveArray = ["oneFavorite", "twoFavorite", "threeFavorite"];
+    const tripleFaveArray = [];
+    tripleFaveArray.push(oneFavorite,twoFavorite,threeFavorite);
 
   const seeResults = document.createElement("p");
   seeResults.append("Your favorite things are:");
